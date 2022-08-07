@@ -1,0 +1,61 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    /* background-color: rgb(12, 31, 237); */
+}
+nav h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background-image:linear-gradient(rgb(254, 254, 253),rgb(132, 112, 223));
+}
+.container{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border-radius: 4px;
+    box-shadow: 7px 6px 8px red;
+    background-color: rgba(112, 192, 239, 0.471);
+    height: 67vh;
+    overflow-y: auto;
+}
+.message{
+    margin: 20px 10px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid grey;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float:left;
+    clear: both;
+}
+.button-container{
+    display: block;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+form input{
+    width: 60%;
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 6px;
+
+}
+.btn{
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-left: 3px;
+    border-radius: 6px;
+
+}
